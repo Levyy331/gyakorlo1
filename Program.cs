@@ -21,7 +21,7 @@ class Program
                 }
             }
 
-            Console.WriteLine("=== HŐMÉRSÉKLET STATISZTIKA ===");
+            Console.WriteLine("===hőmérséklet statisztika===");
             Console.WriteLine($"beolvasott napok száma: {temperatures.Count} nap");
 
             if (temperatures.Count > 0)
@@ -68,7 +68,7 @@ class Program
             Console.WriteLine($"Hiba történt: {ex.Message}");
         }
 
-        Console.WriteLine("\nNyomj meg egy gombot a kilépéshez...");
+        Console.WriteLine("\n nyomj meg egy gombot a kilépéshez...");
         Console.ReadKey();
     }
 }
